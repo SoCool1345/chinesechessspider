@@ -16,7 +16,7 @@ sys.path.append("../..")
 class GdChessDataSpider(scrapy.Spider):
     name = "gdchessdataspider"
     # 设置下载延时
-    download_delay = 2
+    download_delay = 1
     allowed_domains = ["www.zgxqds.com"]
 
     start_urls = [

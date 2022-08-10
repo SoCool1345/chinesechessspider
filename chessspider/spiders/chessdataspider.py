@@ -16,7 +16,7 @@ reg_owner = '(?<=owner=).*(?=&)'
 class ChessDataSpider(scrapy.Spider):
     name = "chessdataspider"
     # 设置下载延时
-    download_delay = 2
+    download_delay = 1
     allowed_domains = ["game.onegreen.net"]
 
     start_urls = [
